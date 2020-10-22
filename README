@@ -1,0 +1,7 @@
+Fill out cell name, logic high level, and logic low level in setup.raw
+Fill out registers in same format as example
+
+python generate_veriloga.py {filename}
+
+In example, filename = setup
+Copy the contents of veriloga.generated.va into cadence veriloga cell
