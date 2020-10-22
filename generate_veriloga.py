@@ -15,7 +15,7 @@ try:
         f = open(filename,'r')
 except:
         print ''
-        print 'Error: {}.io file not found'.format(x)
+        print 'Error: {}.raw file not found'.format(x)
         print ''
 
 #Open veriloga output, change sys.stdout to write to file
