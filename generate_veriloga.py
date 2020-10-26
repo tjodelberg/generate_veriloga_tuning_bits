@@ -37,9 +37,13 @@ for i,row in enumerate(f):
                 module_name = a[1];
                 H = a[3]
                 L = a[5]
-        else:
-                reg_names.append(a[0])
-                reg_vals.append(a[1])
+        else:   
+                try:
+                        reg_names.append(a[0])
+                        reg_vals.append(a[1])
+                except:
+                        print 'Error: Delete blank rows at end of .raw file'
+
 f.close
 
                 
