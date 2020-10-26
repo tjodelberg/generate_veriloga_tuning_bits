@@ -42,7 +42,7 @@ for i,row in enumerate(f):
                         reg_names.append(a[0])
                         reg_vals.append(a[1])
                 except:
-                        print 'Error: Delete blank rows at end of .raw file'
+                        pass
 
 f.close
 
